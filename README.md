@@ -9,6 +9,7 @@ O objetivo principal deste Datathon é promover a criação de uma proposta que 
 ### Propostas:
 
 1. **🎯 Proposta Analítica**:
+
    - Demonstrar o impacto da ONG na performance dos estudantes.
    - Criar um **dashboard** e **storytelling** para contar a história dos dados, gerando insights para tomada de decisão.
    - Foco na análise de indicadores de desempenho e no perfil dos alunos.
@@ -32,7 +33,6 @@ Este projeto tem como foco a previsão de ausência ou presença de alunos nas a
 
 1. **Balanceamento de Dados**:
    - Uso do **RandomUnderSampler** para equilibrar a distribuição de presença/ausência.
-   
 2. **Modelo RandomForest com Hiperparâmetros Otimizados**:
    - Uso de **RandomForestClassifier** com otimização de hiperparâmetros via **RandomizedSearchCV** para maximizar a precisão das previsões.
 
@@ -40,19 +40,19 @@ Este projeto tem como foco a previsão de ausência ou presença de alunos nas a
 
 ## Acessos e Repositórios
 
-- **Link do Dashboard (Streamlit)**: [Link Dashboard Petróleo Brent](#)
-- **Repositório do Streamlit**: [GIT Streamlit](#)
-- **Notebook do Projeto**: [GIT Notebook](#)
+- **Link do Dashboard (Streamlit)**: [Link Dashboard Passos Mágicos ](https://fiapdatathongrupo38.streamlit.app/)
+- **Repositório do Streamlit**: [GIT Streamlit](https://github.com/Leandro-Braga/fiap_datathon)
+- **Notebook do Projeto**: [GIT Notebook](https://github.com/Leandro-Braga/fiap_datathon/tree/14e5a62762964dc8a3e45b327ca9a6104a739d9b/notebook)
 
 ### Passos para Acessar o Projeto:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Leandro-Braga/tech_petrol.git
+   git clone https://github.com/Leandro-Braga/fiap_datathon.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd tech_petrol
+   cd fiap_datathon
    ```
 3. Instale as dependências:
    ```bash
