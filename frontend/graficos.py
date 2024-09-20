@@ -112,8 +112,10 @@ def graph_presenca_aluno(df):
         title_font=dict(size=20),
         plot_bgcolor='rgba(0, 0, 0, 0)', 
         paper_bgcolor='rgba(0, 0, 0, 0)', 
-        font_color='white'
-    )
+        font_color='white',
+        width=600,
+        height=500, 
+        )
 
     # Exibindo o gráfico no Streamlit
     st.plotly_chart(fig)
@@ -379,7 +381,9 @@ def graph_distribuicao_sexo(df):
     fig_sexo_pizza = px.pie(values=sexo_contagem.values, 
                             names=sexo_contagem.index.map(sexo_labels),
                             title='Distribuição de Alunos por Gênero',
-                            color_discrete_sequence=px.colors.qualitative.Bold
+                            # color_discrete_sequence=px.colors.qualitative.Bold
+                            color=sexo_labels,  # Especifica personalizar as cores por Status
+                            color_discrete_map={'Masculino': '#A04747', 'Feminino': '#229799'}  # Mapeia as cores
                             )
 
 
@@ -387,7 +391,9 @@ def graph_distribuicao_sexo(df):
     fig_sexo_pizza.update_layout(
         plot_bgcolor='rgba(0, 0, 0, 0)',  
         paper_bgcolor='rgba(0, 0, 0, 0)', 
-        font_color='white'                
+        font_color='white',
+        width=600,
+        height=500,                   
     )
 
     # Exibindo o gráfico no Streamlit
