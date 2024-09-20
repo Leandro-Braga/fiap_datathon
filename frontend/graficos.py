@@ -371,13 +371,13 @@ def graph_frequencia_aluno_idade(df, var_presente):
 
 def graph_distribuicao_sexo(df):
     
-    # Contando o número de alunos por sexo
+    # Contando o número de alunos por Gênero
     sexo_contagem = df['sexo_aluno'].value_counts()
 
-    # Dicionário para os rótulos de sexo
+    # Dicionário para os rótulos de Gênero
     sexo_labels = {0: 'Masculino', 1: 'Feminino'}
 
-    # Gráfico de pizza para mostrar a distribuição de sexo
+    # Gráfico de pizza para mostrar a distribuição de Gênero
     fig_sexo_pizza = px.pie(values=sexo_contagem.values, 
                             names=sexo_contagem.index.map(sexo_labels),
                             title='Distribuição de Alunos por Gênero',
