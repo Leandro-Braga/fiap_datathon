@@ -1,11 +1,12 @@
 
 import streamlit as st
+from PIL import Image
+from streamlit_extras.metric_cards import style_metric_cards
+
 from backend.predict_passos import predict
 from backend.processo_dados import (base_disciplina_aluno, carregar_dados,
                                     pegar_alunos, prepare_datos_predict)
 from frontend import blocos_st, controlador
-from PIL import Image
-from streamlit_extras.metric_cards import style_metric_cards
 
 from . import graficos as graf
 
