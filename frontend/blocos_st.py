@@ -304,10 +304,10 @@ def init_session_state():
         
         st.divider()
 
-        st.subheader("Alunos do Grupo 38:")
+        st.subheader("Grupo 38:")
         st.write("**Leandro Braga Alves** <br> RM :orange[353057] | 3DTAT", unsafe_allow_html=True)
-        st.write("**Rodrigo Mitsuo Yoshida** <br> RM :orange[35274] | 3DTAT", unsafe_allow_html=True)
-        st.write("**Roberto Yukio Ihara** <br> RM :orange[35274] | 3DTAT", unsafe_allow_html=True)
+        # st.write("**Rodrigo Mitsuo Yoshida** <br> RM :orange[35274] | 3DTAT", unsafe_allow_html=True)
+        # st.write("**Roberto Yukio Ihara** <br> RM :orange[35274] | 3DTAT", unsafe_allow_html=True)
 
 
         st.divider()
